@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+       <title>calculadora</title>
+       <script type="text/javascript">
+         // esta es la calculadora
+       
+       
+
+         function suma(){
+
+         var numero1 =document.getElementById("txtNumero1").value;
+         var numero2 =document.getElementById("txtNumero2").value;
+	 var numero3 =document.getElementById("txtNumero3").value;
+         var totalresultado = (parseInt(numero1) + parseInt(numero2)+ parseInt(numero3))/3;
+             alert("su nota es\n \"" + totalresultado + "\"");
+              }
+
+             //suma();
+           
+            
+    </script>
+</head>
+<body>
+  <form>
+    <input type="text" id="txtNumero1" />
+    <input type="text" id="txtNumero2" />
+    <input type="text" id="txtNumero3" />
+    <input type="button" onclick="suma();" value="calcular" />
+  
+   
+             
+  </form>
+</body>
+</html>
